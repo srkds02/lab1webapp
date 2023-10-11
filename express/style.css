@@ -1,0 +1,28 @@
+p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  div {
+    background-color: #f0f0f0;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
